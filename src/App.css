@@ -45,8 +45,51 @@
 
 .title-page-ul {
   display: flex;
-  /* flex-direction: row; */
+  font-weight: bold;
   justify-content: space-around;
-
   list-style: none;
+}
+
+.aboutme-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav {
+  height: 100px;
+  padding-left: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutme-nav-logo {
+  position: absolute;
+  left: 0%;
+  height: 100px;
+  width: 100px;
+}
+
+.aboutme-nav-ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.project-img {
+  display: flex;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.projects-container {
+  display: flex;
+
 }
