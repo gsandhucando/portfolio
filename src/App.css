@@ -23,6 +23,7 @@
 
 .title-page-textbox {
   background: white;
+  opacity: .9;
   height: 35px;
   width: 300px;
   position: absolute;
@@ -33,14 +34,13 @@
 }
 
 .title-page-nav-container {
-  background: red;
+  background: white;
+  opacity: .9;
   height: 40px;
   width: 300px;
   position: absolute;
   margin-top: 50px;
-  /* display: flex; */
-  align-items: center;
-
+  padding: 10px;
 }
 
 .title-page-ul {
