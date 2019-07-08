@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import TitlePage from './components/TitlePage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <TitlePage />
     </div>
   );
 }
