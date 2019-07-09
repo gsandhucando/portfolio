@@ -140,3 +140,9 @@ nav {
 /* .project-text-container {
   text-align: center;
 } */
+
+.project-notable-text {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2.0em;
+  padding: 0 20px;
+}

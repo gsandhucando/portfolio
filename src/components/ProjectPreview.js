@@ -16,12 +16,12 @@ const ProjectPreview = ({
   return (
     <div className="project-prev-container">
       <h3>{title}</h3>
-      <h4>Role: {role}</h4>
+      <p className="project-notable-text"><span style={{ fontWeight: "bold" }}>Role:</span> {role}</p>
       {/* <div className="project-text-container"> */}
-      <p>
+      <p className="project-notable-text">
         <span style={{ fontWeight: "bold" }}>Technologies Used:</span> {techUsed}
       </p>
-      <p>
+      <p className="project-notable-text">
         <span style={{ fontWeight: "bold" }}>Notable Features:</span> {notableFeatures}
       </p>
       {/* </div> */}
