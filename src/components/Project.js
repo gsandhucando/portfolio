@@ -5,16 +5,22 @@ const Project = () => {
 
   let project = [
     {
+      title: "SONU. Clothing",
+      previewSrc: "./images/sonu.png",
+      siteLink: "https://sonu-fashion.herokuapp.com/",
+      githubLink: "https://github.com/gsandhucando/fashion_site",
+      role: "Owner",
+      techUsed: 'ReactJS, HTML5, CSS3, NodeJS, ExpressJS, MongoDB, Mongoose, Redux, fontAwesome, axios, bcrypt passport',
+      notableFeatures: ''
+    },
+    {
       title: "Langbaan Resturant",
       previewSrc: "./images/lb.png",
       siteLink: "https://damp-badlands-70555.herokuapp.com/",
-      githubLink: "https://github.com/gsandhucando/resturant-page"
-    },
-    {
-      title: "Sonus Clothing Site",
-      previewSrc: "./images/sonu.png",
-      siteLink: "https://sonu-fashion.herokuapp.com/",
-      githubLink: "https://github.com/gsandhucando/fashion_site"
+      githubLink: "https://github.com/gsandhucando/resturant-page",
+      role: "Owner",
+      techUsed: '',
+      notableFeatures: ''
     },
   ];
 

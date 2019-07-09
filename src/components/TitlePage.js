@@ -1,8 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+const github = <FontAwesomeIcon size={"3x"} icon={faGithub} />;
 
 const TitlePage = () => {
   let nav = ['about me', 'projects', 'resume'].map(list => {
-    return <li>{list}</li>
+    return <li key={list}>{list}</li>
   })
   return (
     <div className="title-page-container">

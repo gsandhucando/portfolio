@@ -6,7 +6,7 @@ import AboutMe from "./components/AboutMe";
 function App() {
   let nav = ["about me", "projects", "resume", "github", "linkedin"].map(
     navItem => {
-      return <li>{navItem}</li>;
+      return <li key={navItem}>{navItem}</li>;
     }
   );
   return (
