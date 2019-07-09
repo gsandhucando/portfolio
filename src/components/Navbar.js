@@ -27,8 +27,20 @@ const Navbar = () => {
           <li>projects</li>
         </Link>
         <li>resume</li>
-        <a href="https://github.com/gsandhucando" target="_blank" rel="noopener noreferrer"><li>github</li></a>
-        <a href="https://www.linkedin.com/in/gurjot-sandhu-954364a9/" target="_blank" rel="noopener noreferrer"><li>linkedin</li></a>
+        <a
+          href="https://github.com/gsandhucando"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>github</li>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gurjot-sandhu-954364a9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>linkedin</li>
+        </a>
       </ul>
     </nav>
   );

@@ -6,6 +6,8 @@
 
 a, button {
   cursor: pointer;
+  color: inherit;
+  text-decoration: none;
 }
 
 .title-page-container {
@@ -51,6 +53,7 @@ a, button {
   font-weight: bold;
   justify-content: space-around;
   list-style: none;
+  text-transform: capitalize;
 }
 
 .aboutme-container {
