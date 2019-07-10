@@ -35,7 +35,7 @@ const Navbar = () => {
           <li>github</li>
         </a>
         <a
-          href="https://www.linkedin.com/in/gurjot-sandhu-954364a9/"
+          href="https://www.linkedin.com/in/gurjot--sandhu/"
           target="_blank"
           rel="noopener noreferrer"
         >

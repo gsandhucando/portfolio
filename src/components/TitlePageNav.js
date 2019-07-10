@@ -14,7 +14,7 @@ const TitlePageNav = () => {
         to="about me"
         spy={true}
         smooth={true}
-        offset={352}
+        offset={357}
         duration={500}
       >
         <li id="about me">about me</li>
@@ -38,7 +38,7 @@ const TitlePageNav = () => {
         <li>{github}</li>
       </a>
       <a
-        href="https://www.linkedin.com/in/gurjot-sandhu-954364a9/"
+        href="https://www.linkedin.com/in/gurjot--sandhu/"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -10,8 +10,7 @@ const AboutMe = ({ nav }) => {
       <div className="aboutme-text-container">
         <h1>About Me</h1>
         <p className="project-notable-text">
-          asdasd asdsa ds dsa dsad sad safdsf sdfsdf sdf sd fsd fds dsf dsf sd
-          ds dsfsdf sdf sf sf fs sfd f fsd
+        Passionate problem solver with a hunger for knowledge and betterment of myself.
         </p>
       </div>
       <div className="aboutme-projects-div">

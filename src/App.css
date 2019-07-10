@@ -10,6 +10,12 @@ a, button {
   text-decoration: none;
 }
 
+a:hover {
+  background: #5F282E;
+  color: white;
+  width: auto;
+}
+
 .title-page-container {
   display: flex;
   justify-content: center;
@@ -85,13 +91,12 @@ nav {
   align-items: center;
   list-style: none;
   align-self: flex-end;
-  /* justify-content: space-between; */
   text-transform: uppercase;
-  padding-right: 5px;
+  padding: 0 10px;
 }
 
 .aboutme-nav-ul li {
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 .aboutme-projects-div {
@@ -140,12 +145,9 @@ nav {
   color: white;
 }
 
-/* .project-text-container {
-  text-align: center;
-} */
-
 .project-notable-text {
   font-family: 'Courier New', Courier, monospace;
   line-height: 2.0em;
   padding: 0 20px;
+  font-size: 15px;
 }
