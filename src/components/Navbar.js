@@ -26,7 +26,13 @@ const Navbar = () => {
         >
           <li>projects</li>
         </Link>
-        <li>resume</li>
+        <a
+          href="https://drive.google.com/file/d/1Eb3693arnQPF3znr7ynl_kAhUjjvoguy/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>resume</li>
+        </a>
         <a
           href="https://github.com/gsandhucando"
           target="_blank"
