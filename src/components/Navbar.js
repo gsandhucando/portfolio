@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         >
           <li id="about me">about me</li>
         </Link> */}
-        <Link
+        {/* <Link
           activeClass="active"
           to="projects"
           spy={true}
@@ -25,7 +25,7 @@ const Navbar = () => {
           duration={500}
         >
           <li>projects</li>
-        </Link>
+        </Link> */}
         <a
           href="https://drive.google.com/file/d/1N91VFx0dAYkf-C_gdX19132QQNOXjrEH/view"
           target="_blank"

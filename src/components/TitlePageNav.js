@@ -14,7 +14,7 @@ const TitlePageNav = () => {
         to="about me"
         spy={true}
         smooth={true}
-        offset={357}
+        offset={350}
         duration={500}
       >
         <li id="about me">about me</li>
