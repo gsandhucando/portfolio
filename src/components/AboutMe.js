@@ -8,7 +8,7 @@ const AboutMe = ({ nav }) => {
       <Navbar />
       <hr />
       <div className="aboutme-text-container">
-        <h1>About Me</h1>
+        <h1 id="about_me">About Me</h1>
         <p className="project-notable-text">
           I'm a Full Stack engineer that enjoys problem solving and looking for
           opportunities to put my skills to use.

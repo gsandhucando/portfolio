@@ -11,10 +11,10 @@ const TitlePageNav = () => {
     <ul className="title-page-ul">
       <Link
         activeClass="active"
-        to="about me"
+        to="about_me"
         spy={true}
         smooth={true}
-        offset={350}
+        offset={0}
         duration={500}
       >
         <li id="about me">about me</li>
