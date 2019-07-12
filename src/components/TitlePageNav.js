@@ -30,7 +30,7 @@ const TitlePageNav = () => {
         <li>projects</li>
       </Link>
       <a
-        href="https://drive.google.com/file/d/1fwPlhkW3cg91fdyZD00phkb1KSl7ghSO/view"
+        href="https://drive.google.com/file/d/1bqE6DM4JHGa8uzst3UHm1nHOnpo27Av8/view"
         target="_blank"
         rel="noopener noreferrer"
       >
