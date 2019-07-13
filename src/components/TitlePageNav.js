@@ -37,18 +37,20 @@ const TitlePageNav = () => {
         <li>resume</li>
       </a>
       <a
+        className="github"
         href="https://github.com/gsandhucando"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <li>{github}</li>
+        {github}
       </a>
       <a
+        className="linkedin"
         href="https://www.linkedin.com/in/gurjot--sandhu/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <li>{linkedin}</li>
+        {linkedin}
       </a>
     </ul>
   );

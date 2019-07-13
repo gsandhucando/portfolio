@@ -163,3 +163,14 @@ nav {
   text-align: start;
 }
 
+.github {
+  position: absolute;
+  top: -115%;
+  left: 1%;
+}
+
+.linkedin {
+  position: absolute;
+  top: -115%;
+  right: 1%;
+}
