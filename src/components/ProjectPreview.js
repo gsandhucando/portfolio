@@ -15,8 +15,9 @@ const ProjectPreview = ({
 }) => {
 
   let feature = notableFeatures.split('\n').map((text, i) => {
-    return <p>{text}</p>
+    return <p key={i}>{text}</p>
   })
+
   return (
     <div className="project-prev-container">
       <h3>{title}</h3>
