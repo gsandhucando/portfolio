@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>projects</li>
         </Link> */}
         <a
-          href="https://drive.google.com/file/d/14DrJL8TGR7cme5xCg3ZFTxCHioKCyqVd/view"
+          href="https://drive.google.com/file/d/16zfsBDL9S9r2HrAvevaYRvTUoVY9Bm1V/view"
           target="_blank"
           rel="noopener noreferrer"
         >

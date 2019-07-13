@@ -137,7 +137,7 @@ nav {
   margin: 10px;
   height: 50px;
   width: 120px;
-  background-color: #333;
+  background: #333;
   color: white;
   border: none;
 }
@@ -169,8 +169,19 @@ nav {
   left: 1%;
 }
 
+.github:hover {
+  color: white;
+  background: #24292e;
+  border-radius: 50%;
+}
+
 .linkedin {
   position: absolute;
   top: -115%;
   right: 1%;
+}
+
+.linkedin:hover {
+  color: #0077B6;
+  background: white;
 }
