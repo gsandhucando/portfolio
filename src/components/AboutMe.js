@@ -24,7 +24,7 @@ const AboutMe = ({ nav }) => {
       <hr />
       <div className="aboutme-text-container">
         <h1 id="about_me">About Me</h1>
-        <p className="project-notable-text">
+        <p className="aboutme-notable-text">
           I specialize in software engineering as a full stack developer. I
           enjoy solving complex problems using technology and am excited by new
           opportunities to learn. Look forward to speaking with you about your

@@ -13,6 +13,10 @@ const ProjectPreview = ({
   techUsed,
   notableFeatures
 }) => {
+
+  let feature = notableFeatures.split('\n').map((text, i) => {
+    return <p>{text}</p>
+  })
   return (
     <div className="project-prev-container">
       <h3>{title}</h3>
@@ -25,7 +29,7 @@ const ProjectPreview = ({
       </p>
       <p className="project-notable-text">
         <span style={{ fontWeight: "bold" }}>About Project:</span>{" "}
-        {notableFeatures}
+        {feature}
       </p>
       <img className="project-img" src={previewSrc} alt={title} />
       <div className="btn-div">
