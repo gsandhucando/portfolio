@@ -3,7 +3,7 @@ import TitlePageNav from "./TitlePageNav";
 
 const TitlePage = () => {
   return (
-    <div className="title-page-container">
+    <div id="title" className="title-page-container">
       <img className="title-page-logo" src="./images/logo.png" alt="logo" />
       <div className="title-page-textbox">
         <h3>Software Engineer</h3>
