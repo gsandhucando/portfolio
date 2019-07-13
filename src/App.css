@@ -150,7 +150,7 @@ nav {
 .aboutme-notable-text {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2.0em;
-  padding: 0 20px;
+  margin: 0 30px;
   font-size: 15px;
   text-align: justify;
 }
@@ -160,6 +160,6 @@ nav {
   line-height: 2.0em;
   padding: 0 20px;
   font-size: 15px;
-  text-align: justify;
+  text-align: start;
 }
 
