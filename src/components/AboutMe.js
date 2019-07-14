@@ -1,25 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Project from "./Project";
-// import { Link } from "react-scroll";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-// const chevronUp = <FontAwesomeIcon id="title" size={"2x"} icon={faChevronUp} />;
+const chevronUp = <FontAwesomeIcon id="title" size={"2x"} icon={faChevronUp} />;
 
 const AboutMe = ({ nav }) => {
+  let [ scrollHeight, setScrollHeight] = useState(false);
+
+  let updateDimensions = () => {
+    if (window.pageYOffset > 300) {
+      setScrollHeight(true)
+    } else {
+      setScrollHeight(false)
+    }
+  }
+
+  useEffect(()=> {
+    updateDimensions();
+    window.addEventListener("scroll", updateDimensions);
+    return () => {
+      window.removeEventListener("scroll", updateDimensions);
+    };
+  }, [])
+
   return (
     <div className="aboutme-container">
-      {/* <Link
-        activeClass="active"
-        to="title"
-        spy={true}
-        smooth={true}
-        offset={0}
-        duration={500}
-      >
-        {chevronUp}
-      </Link> */}
       <Navbar />
       <hr />
       <div className="aboutme-text-container">
@@ -35,6 +43,20 @@ const AboutMe = ({ nav }) => {
         <h1 id="projects">Most Recent Projects</h1>
         <Project />
       </div>
+      { scrollHeight ?
+      <Link
+        className="upArrow"
+        activeClass="active"
+        to="title"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
+        {chevronUp}
+      </Link>
+      : null
+      }
     </div>
   );
 };
