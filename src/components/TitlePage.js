@@ -1,9 +1,15 @@
 import React from "react";
 import TitlePageNav from "./TitlePageNav";
+import { Spring } from "react-spring/renderprops";
 
 const TitlePage = () => {
   return (
-    <div id="title" className="title-page-container">
+    // <Spring
+    //   from={{ opacity: 1, marginLeft: -2000 }}
+    //   to={{ opacity: 1, marginLeft: 0 }}
+    //   config={{ delay: 0, duration: 1000 }}
+    // >{props => (
+    <div /*style={props}*/ id="title" className="title-page-container">
       <img className="title-page-logo" src="./images/logo.png" alt="logo" />
       <div className="title-page-textbox">
         <h3>Software Engineer</h3>
@@ -12,6 +18,8 @@ const TitlePage = () => {
         </div>
       </div>
     </div>
+    // )}
+    // </Spring>
   );
 };
 
