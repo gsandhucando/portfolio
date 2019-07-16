@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-const github = <FontAwesomeIcon size={"2x"} icon={faGithub} />;
-const linkedin = <FontAwesomeIcon size={"2x"} icon={faLinkedin} />;
 
 const TitlePageNav = () => {
   return (
@@ -36,22 +32,7 @@ const TitlePageNav = () => {
       >
         <li>resume</li>
       </a>
-      <a
-        className="github"
-        href="https://github.com/gsandhucando"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {github}
-      </a>
-      <a
-        className="linkedin"
-        href="https://www.linkedin.com/in/gurjot--sandhu/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {linkedin}
-      </a>
+
     </ul>
   );
 };

@@ -28,10 +28,10 @@ const ProjectPreview = ({
         <span style={{ fontWeight: "bold" }}>Technologies Used:</span>{" "}
         {techUsed}
       </p>
-      <p className="project-notable-text">
+      <div className="project-notable-text">
         <span style={{ fontWeight: "bold" }}>About Project:</span>{" "}
         {feature}
-      </p>
+      </div>
       <img className="project-img" src={previewSrc} alt={title} />
       <div className="btn-div">
         <a href={siteLink} target="_blank" rel="noopener noreferrer">
