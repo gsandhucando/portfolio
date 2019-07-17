@@ -222,3 +222,18 @@ nav {
   height: auto;
   width: 50px;
 }
+
+.c {
+  display: flex;
+  align-self: center;
+  padding: 10px;
+  width: 70%;
+  height: 40vh;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: cover;
+}
