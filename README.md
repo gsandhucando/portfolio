@@ -1,1 +1,1 @@
-My portfolio site  hosted at https://www.gurjotsandhu.com
+My portfolio site hosted at https://www.gurjotsandhu.com
