@@ -139,7 +139,7 @@ nav {
   flex-direction: column;
   background: #5f282e;
   color: white;
-  height: 100%;
+  /* height: 100%; */
   width: 100vw;
   z-index: 98;
   list-style: none;
@@ -148,7 +148,7 @@ nav {
 }
 
 .aboutme-mobile-nav-ul li {
-  margin: 20px 2px;
+  margin: 15px 2px;
 }
 
 .aboutme-nav-ul li {
