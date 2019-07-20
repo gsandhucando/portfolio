@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-
 const TitlePageNav = () => {
   return (
     <ul className="title-page-ul">
@@ -32,7 +31,6 @@ const TitlePageNav = () => {
       >
         <li>resume</li>
       </a>
-
     </ul>
   );
 };

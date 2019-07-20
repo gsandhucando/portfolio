@@ -40,13 +40,14 @@ const Contact = () => {
 
   return (
     <div className={ mobile ? "contact-mobile-container" : "contact-container"}>
-      <form className={ mobile ? "contact-mobile-form" : "contact-form"} onSubmit={sendEmail}>
+      <form id="contact" className={ mobile ? "contact-mobile-form" : "contact-form"} onSubmit={sendEmail}>
         <input
           onChange={e => setMessage({ ...message, name: e.target.value })}
           className="contact-name"
           type="text"
           value={message.name || ''}
           placeholder="YOUR NAME"
+          autoComplete='on'
           required
         />
         <input
@@ -55,6 +56,7 @@ const Contact = () => {
           type="text"
           value={message.number || ''}
           placeholder="YOUR PHONE NUMBER"
+          autoComplete='on'
           required
         />
         <input
@@ -63,6 +65,7 @@ const Contact = () => {
           type="text"
           value={message.from || ''}
           placeholder="YOUR EMAIL"
+          autoComplete='on'
           required
         />
         <textarea
