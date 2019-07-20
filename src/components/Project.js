@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectPreview from "./ProjectPreview";
+import Contact from './Contact';
 
 const Project = () => {
   let project = [
@@ -41,6 +42,7 @@ const Project = () => {
       {project.map(site => {
         return <ProjectPreview key={site.title} {...site} />;
       })}
+    <Contact />
     </div>
   );
 };
