@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const MobileNavBar = () => {
   return (
-    <div className='aboutme-mobile-nav-container'>
+    <div className="aboutme-mobile-nav-container">
       {/* <img className="aboutme-nav-logo" src="./images/logo.png" alt="logo" /> */}
       <ul className="aboutme-mobile-nav-ul">
         <a

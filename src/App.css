@@ -99,10 +99,6 @@ nav {
   margin: 20px 0;
 }
 
-.aboutme-mobile-nav-container {
-
-}
-
 .mobile-hamburger-container {
   display: flex;
   flex-direction: column;
@@ -179,6 +175,8 @@ nav {
 .projects-container {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .project-prev-container {

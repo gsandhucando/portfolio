@@ -3,18 +3,11 @@ import { Link } from "react-scroll";
 import MobileNavBar from "./MobileNavBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-const Bars = (
-  <FontAwesomeIcon
-    className="line1"
-    size={"2x"}
-    icon={faBars}
-  />
-);
+const Bars = <FontAwesomeIcon className="line1" size={"2x"} icon={faBars} />;
 
 const Navbar = () => {
   let [mobile, setMobile] = useState(false);
   let [hamburger, setHambuger] = useState(false);
-
 
   let updateDimensions = () => {
     if (window.innerWidth < 440) {

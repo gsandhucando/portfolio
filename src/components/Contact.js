@@ -15,11 +15,11 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    updateDimensions()
+    updateDimensions();
     window.addEventListener("resize", updateDimensions);
     return () => {
-      window.removeEventListener("resize", updateDimensions)
-    }
+      window.removeEventListener("resize", updateDimensions);
+    };
   }, []);
 
   let sendEmail = e => {
@@ -39,39 +39,43 @@ const Contact = () => {
   };
 
   return (
-    <div className={ mobile ? "contact-mobile-container" : "contact-container"}>
-      <form id="contact" className={ mobile ? "contact-mobile-form" : "contact-form"} onSubmit={sendEmail}>
+    <div className={mobile ? "contact-mobile-container" : "contact-container"}>
+      <form
+        id="contact"
+        className={mobile ? "contact-mobile-form" : "contact-form"}
+        onSubmit={sendEmail}
+      >
         <input
           onChange={e => setMessage({ ...message, name: e.target.value })}
           className="contact-name"
           type="text"
-          value={message.name || ''}
+          value={message.name || ""}
           placeholder="YOUR NAME"
-          autoComplete='on'
+          autoComplete="on"
           required
         />
         <input
           onChange={e => setMessage({ ...message, number: e.target.value })}
           className="contact-phone"
           type="text"
-          value={message.number || ''}
+          value={message.number || ""}
           placeholder="YOUR PHONE NUMBER"
-          autoComplete='on'
+          autoComplete="on"
           required
         />
         <input
           onChange={e => setMessage({ ...message, from: e.target.value })}
           className="contact-email"
           type="text"
-          value={message.from || ''}
+          value={message.from || ""}
           placeholder="YOUR EMAIL"
-          autoComplete='on'
+          autoComplete="on"
           required
         />
         <textarea
           onChange={e => setMessage({ ...message, text: e.target.value })}
           className="contact-textarea"
-          value={message.text || ''}
+          value={message.text || ""}
           placeholder="YOUR MESSAGE"
           required
         />
