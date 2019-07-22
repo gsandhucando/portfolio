@@ -263,6 +263,9 @@ nav {
 }
 
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 45vh;
   width: 100%;
   background: #333;
