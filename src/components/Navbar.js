@@ -41,6 +41,7 @@ const Navbar = () => {
       <img className="aboutme-nav-logo" src="./images/logo.png" alt="logo" />
       {mobile ? (
         <div onClick={mobileNav} className="mobile-hamburger-container">
+          {/* seperate for different effects */}
           {Bars}
           {hamburger ? <MobileNavBar /> : null}
         </div>
