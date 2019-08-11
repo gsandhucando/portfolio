@@ -40,6 +40,7 @@ const Contact = () => {
 
   return (
     <div className={mobile ? "contact-mobile-container" : "contact-container"}>
+      <div className='contact-form-wrapper' >
       <form
         id="contact"
         className={mobile ? "contact-mobile-form" : "contact-form"}
@@ -83,6 +84,7 @@ const Contact = () => {
           SUBMIT
         </button>
       </form>
+      </div>
       <div>{errMessage.length > 0 ? <p>{errMessage}</p> : null}</div>
     </div>
   );

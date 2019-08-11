@@ -5,13 +5,26 @@ import ProjectPreview from "./ProjectPreview";
 const Project = () => {
   let project = [
     {
+      title: "Marvel Hero Search",
+      previewSrc: "./images/marvel_hero.png",
+      siteLink: "https://marvel-app1.herokuapp.com/",
+      githubLink: "https://github.com/gsandhucando/marvel",
+      role: "Owner/Creator",
+      techUsed:
+        "ReactJS, react-router-dom, HTML5, CSS3, axios",
+      notableFeatures: `This is a front-end project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
+      Search for famous Marvel heroes.\n
+      Click on them and find out more.\n
+      I used the Marvel API to fetch data\n`
+    },
+    {
       title: "SONU. Clothing",
       previewSrc: "./images/sonu.png",
       siteLink: "https://sonu-fashion.herokuapp.com/",
       githubLink: "https://github.com/gsandhucando/fashion_site",
       role: "Owner/Creator",
       techUsed:
-        "ReactJS, HTML5, CSS3, NodeJS, ExpressJS, MongoDB, Mongoose, Redux, fontAwesome, axios, bcrypt, passport local strategy.",
+        "ReactJS, Redux, react-router-dom, HTML5, CSS3, NodeJS, ExpressJS, MongoDB, Mongoose, Redux, fontAwesome, axios, bcrypt, passport local strategy.",
       notableFeatures: `This is a full stack project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
         Created REST API of clothing items which includes, images, prices, names, colors, and categories.\n
         Used local strategy authentication. There are two options at checkout, sign in with email: guest@guest.com password: 123456, or sign up wait a few seconds for heroku to register and sign in.\n
