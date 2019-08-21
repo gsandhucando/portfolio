@@ -1,11 +1,21 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const MobileNavBar = () => {
+const MobileNavBar = ({mobile}) => {
+  let styles = {
+    hideNav: {
+      opacity: 0,
+      visibility: "hidden"
+    },
+    showNav: {
+      opacity: 1,
+      visibility: "visible"
+    }
+  };
   return (
     <div className="aboutme-mobile-nav-container">
       {/* <img className="aboutme-nav-logo" src="./images/logo.png" alt="logo" /> */}
-      <ul className="aboutme-mobile-nav-ul">
+      <ul style={!mobile ? styles.hideNav : styles.showNav} className="aboutme-mobile-nav-ul">
         <a
           href="https://drive.google.com/file/d/19AU_4c1kRXsaaGqvlaoRH2nNUgxxNrlc/view?usp=sharing"
           target="_blank"

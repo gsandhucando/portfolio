@@ -36,7 +36,7 @@ const Navbar = () => {
         <div onClick={mobileNav} className="mobile-hamburger-container">
           {/* seperate for different effects */}
           {Bars}
-          {hamburger ? <MobileNavBar /> : null}
+          {hamburger ? <MobileNavBar mobile={mobile} /> : null}
         </div>
       ) : (
         <>

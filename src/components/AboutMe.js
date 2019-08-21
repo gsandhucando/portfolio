@@ -9,23 +9,23 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 const chevronUp = <FontAwesomeIcon id="title" size={"2x"} icon={faChevronUp} />;
 
 const AboutMe = ({ nav }) => {
-  let [ scrollHeight, setScrollHeight] = useState(false);
+  let [scrollHeight, setScrollHeight] = useState(false);
 
   let updateDimensions = () => {
     if (window.pageYOffset > 300) {
-      setScrollHeight(true)
+      setScrollHeight(true);
     } else {
-      setScrollHeight(false)
+      setScrollHeight(false);
     }
-  }
+  };
 
-  useEffect(()=> {
+  useEffect(() => {
     updateDimensions();
     window.addEventListener("scroll", updateDimensions);
     return () => {
       window.removeEventListener("scroll", updateDimensions);
     };
-  }, [])
+  }, []);
 
   return (
     <div className="aboutme-container">
@@ -45,20 +45,31 @@ const AboutMe = ({ nav }) => {
         <Project />
         {/* <Contact /> */}
       </div>
-      { scrollHeight ?
-      <Link
-        className="upArrow"
-        activeClass="active"
-        to="title"
-        spy={true}
-        smooth={true}
-        offset={0}
-        duration={500}
-      >
-        {chevronUp}
-      </Link>
-      : null
-      }
+      {scrollHeight ? (
+        <Link
+          className="upArrow"
+          activeClass="active"
+          to="title"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          {chevronUp}
+        </Link>
+      ) : null}
+      <p className='heart-container'>
+        Made with{" "}
+        <span className="heart">
+          <svg className="heart" viewBox="0 0 32 29.6">
+            <path
+              d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	            c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+            />
+          </svg>{" "}
+        </span>{" "}
+        from scratch
+      </p>
     </div>
   );
 };
