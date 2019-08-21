@@ -2,7 +2,7 @@ import React from "react";
 import TitlePageNav from "./TitlePageNav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { Spring } from "react-spring/renderprops";
+// import { Spring } from "react-spring/renderprops";
 
 const github = <FontAwesomeIcon size={"2x"} icon={faGithub} />;
 const linkedin = <FontAwesomeIcon size={"2x"} icon={faLinkedin} />;

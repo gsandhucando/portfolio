@@ -5,19 +5,6 @@ import ProjectPreview from "./ProjectPreview";
 const Project = () => {
   let project = [
     {
-      title: "Marvel Hero Search",
-      previewSrc: "./images/marvel_hero.png",
-      siteLink: "https://marvel-app1.herokuapp.com/",
-      githubLink: "https://github.com/gsandhucando/marvel",
-      role: "Owner/Creator",
-      techUsed:
-        "ReactJS, react-router-dom, HTML5, CSS3, axios",
-      notableFeatures: `This is a front-end project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
-      Search for famous Marvel heroes.\n
-      Click on them and find out more.\n
-      I used the Marvel API to fetch data\n`
-    },
-    {
       title: "SONU. Clothing",
       previewSrc: "./images/sonu.png",
       siteLink: "https://sonu-fashion.herokuapp.com/",
@@ -31,6 +18,31 @@ const Project = () => {
         The password is hashed and salted using bcryptjs.\n
         Each user is tracked by a session cookie that has a max life of 24 hours.\n
         Once signed in cart keeps track of the number of items using Redux.`
+    },
+    {
+      title: "Properties",
+      previewSrc: "./images/properties.png",
+      siteLink: "https://properties1.herokuapp.com/",
+      githubLink: "https://github.com/gsandhucando/real-estate-app",
+      role: "Owner/Creator",
+      techUsed:
+        "ReactJS, HTML5, CSS3 SASS",
+      notableFeatures: `This is a frontend project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
+        Created an app that show properties for sale.\n
+        Properties can be sorted by city, home type, number of bedrooms, price, floor space, and extras.\n`
+    },
+    {
+      title: "Marvel Hero Search",
+      previewSrc: "./images/marvel_hero.png",
+      siteLink: "https://marvel-app1.herokuapp.com/",
+      githubLink: "https://github.com/gsandhucando/marvel",
+      role: "Owner/Creator",
+      techUsed:
+        "ReactJS, react-router-dom, HTML5, CSS3, axios",
+      notableFeatures: `This is a front-end project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
+      Search for famous Marvel heroes.\n
+      Click on them and find out more.\n
+      I used the Marvel API to fetch data\n`
     },
     {
       title: "Langbaan Resturant",
