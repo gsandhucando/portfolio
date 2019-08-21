@@ -4,7 +4,7 @@ import Project from "./Project";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import Contact from './Contact';
+// import Contact from './Contact';
 
 const chevronUp = <FontAwesomeIcon id="title" size={"2x"} icon={faChevronUp} />;
 
@@ -43,7 +43,7 @@ const AboutMe = ({ nav }) => {
       <div className="aboutme-projects-div">
         <h1 id="projects">Most Recent Projects</h1>
         <Project />
-        <Contact />
+        {/* <Contact /> */}
       </div>
       { scrollHeight ?
       <Link
