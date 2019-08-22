@@ -41,13 +41,13 @@ const Navbar = () => {
       ) : (
         <>
           <ul className="aboutme-nav-ul">
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/19AU_4c1kRXsaaGqvlaoRH2nNUgxxNrlc/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
               <li>resume</li>
-            </a>
+            </a> */}
             <a
               href="https://github.com/gsandhucando"
               target="_blank"
@@ -62,7 +62,7 @@ const Navbar = () => {
             >
               <li>linkedin</li>
             </a>
-            <Link
+            {/* <Link
               activeClass="active"
               to="contact"
               spy={true}
@@ -71,7 +71,7 @@ const Navbar = () => {
               duration={500}
             >
               <li>contact</li>
-            </Link>
+            </Link> */}
           </ul>
         </>
       )}

@@ -16,13 +16,13 @@ const MobileNavBar = ({mobile}) => {
     <div className="aboutme-mobile-nav-container">
       {/* <img className="aboutme-nav-logo" src="./images/logo.png" alt="logo" /> */}
       <ul style={!mobile ? styles.hideNav : styles.showNav} className="aboutme-mobile-nav-ul">
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/19AU_4c1kRXsaaGqvlaoRH2nNUgxxNrlc/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
           <li>resume</li>
-        </a>
+        </a> */}
         <a
           href="https://github.com/gsandhucando"
           target="_blank"
@@ -37,7 +37,7 @@ const MobileNavBar = ({mobile}) => {
         >
           <li>linkedin</li>
         </a>
-        <Link
+        {/* <Link
           activeClass="active"
           to="contact"
           spy={true}
@@ -46,7 +46,7 @@ const MobileNavBar = ({mobile}) => {
           duration={500}
         >
           <li>contact</li>
-        </Link>
+        </Link> */}
       </ul>
     </div>
   );
