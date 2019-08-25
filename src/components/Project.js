@@ -45,6 +45,18 @@ const Project = () => {
       I used the Marvel API to fetch data\n`
     },
     {
+      title: "McLaren Speedtail Landing Page",
+      previewSrc: "./images/speedtail.png",
+      siteLink: "https://mclarenspeedtail.herokuapp.com/",
+      githubLink: "https://github.com/gsandhucando/mclaren_speedtail",
+      role: "Owner/Creator",
+      techUsed:
+        "ReactJS, HTML5, CSS3, SASS, react-spring",
+      notableFeatures: `This is a front-end project and is hosted on heroku, please allow it to take 10-20 seconds to load.\n
+      Simple McLaren landing page\n
+      Click on photo icon to see a nice smooth photo carousel.\n`
+    },
+    {
       title: "Langbaan Resturant",
       previewSrc: "./images/lb.png",
       siteLink: "https://damp-badlands-70555.herokuapp.com/",
